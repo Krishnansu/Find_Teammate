@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Find Teammate</title>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    
+     
+        
+        <div id="user_div" class="loggedin-div">
+            <div id="buttonDiv">
+                <button id="button1" onclick="logout()">Logout</button>
+                
+            </div>
+            <div id="welcome">
+                <p id="user_para" style="font-size: large;font-weight: bold;"></p>
+            </div>
+
+            <div id="heading">
+            <h1>Find Teammate</h1>
+            </div>
+            <table >
+                <tbody>
+                    <tr>
+                        <td><a href="form success.html">Home</a></td>
+                        <td><a href="profiles.html">View Profiles</a></td>
+                        <td><a href="ContactUsNew.html">Contact Us</a></td>
+                    </tr>
+                </tbody>
+         
+                
+            </table> 
+            
+          </div>
+
+
+        <div id="profcreate">
+
+            <p style="font-size: larger; color: darkgreen;">
+                Profile created successfully!!!
+                <br>
+
+                <a href="profiles.html" style="color: black; font-size: medium; text-decoration: underline;">Click Here to View Profiles of other users </a>
+            </p>
+
+        </div>
+    </body>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+ 
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    
+
+
+    <script src="index.js"></script>
+
+</html>
