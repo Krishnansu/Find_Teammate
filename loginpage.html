@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginstyle.css">
+  
+  </head>
+  <body>
+    <div id="log_container" class="bg-img">
+      <div class="content">
+        <header>Login</header>
+        <form action="#">
+          <div class="field">
+            <span class="fa fa-user"></span>
+            <input id="email1" type="text" required placeholder="Email ">
+          </div>
+          <div class="field">
+            <span class="fa fa-lock"></span>
+            <input id= "password1" type="password" class="pass-key" required placeholder="Password">
+            
+          </div>
+          <div class="signup">Don't have account?
+            <a onclick="show()" href="#">Signup Now</a>
+          </div>
+          <div class="field">
+            <input onclick="login()" type="submit" value="LOGIN">
+          </div>
+        </form>
+     
+        </div>
+        
+      </div>
+    </div>
+
+    <div style="display: none;" id="reg_container" class="bg-img">
+      <div class="content">
+        <header>New User</header>
+        <form action="#">
+          <div class="field">
+            <span class="fa fa-user"></span>
+            <input id="full_name" type="text" required placeholder="Full Name ">
+          </div>
+          <div class="field">
+            <span class="fa fa-user"></span>
+            <input id="email" type="text" required placeholder="Email ">
+          </div>
+          <div class="field">
+            <span class="fa fa-lock"></span>
+            <input id= "password" type="password" class="pass-key" required placeholder="Password">
+            
+          </div>
+          <div class="signup">Already Registered?
+            <a onclick="dontshow()" href="#">Login Now</a>
+          </div>
+          <div class="field">
+            <input onclick="register()" type="submit" value="REGISTER">
+          </div>
+        </form>
+        
+        </div>
+        
+      </div>
+    </div>
+
+  
+
+
+  </body>
+
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+ 
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    
+
+
+    <script src="index.js"></script>
+</html>
