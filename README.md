@@ -1,6 +1,7 @@
 # Find_Teammate
-
-All the files added in this repository are for the purpose of the Web Development project for the Winter of Code 4.0 .
-The code may not be copied or reproduced anywhere till the owner gives permission.
+● Developed a website where users can find their project partner by viewing various users profile. 
+●  Users can register themselves and find teammates based on their skills, tech stack and  work experience.
+● Tech stack used -  HTML, CSS, JavaScript
+ 
 
 N.B. The first page of the website is loginpage.html
